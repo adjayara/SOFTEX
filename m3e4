@@ -1,0 +1,17 @@
+class Retangulo:
+
+     def __init__(self):
+
+          self.altura=0
+
+          self.largura=0
+
+     # funções(operações)
+
+     def perimetro(self):
+
+          return (self.altura*2)+(self.largura*2)
+
+     def area(self):
+
+          return self.altura*self.largura
