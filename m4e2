@@ -1,0 +1,13 @@
+class Time:
+  #previous method definitions here...
+
+  def increment(self, segundos):
+  self.seconds = seconds + self.seconds
+
+  while self.segundos >= 60:
+    self.seconds = self.segundos - 60
+    self.minutes = self.minutos + 1
+
+  while self.minutes >= 60:
+    self.minutes = self.minutos - 60
+    self.hours = self.horas + 1
