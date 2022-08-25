@@ -1,0 +1,32 @@
+arvore 
+insere (arvore r, noh *novo) {  
+    if (r == NULL) return novo;
+    if (r->chave > novo->chave) 
+       r->esq = insere (r->esq, novo);
+    else 
+       r->dir = insere (r->dir, novo);
+    return r;
+}
+
+arvore 
+removeraiz (arvore r) {  
+    noh *p, *q;
+    if (r->esq == NULL) {
+       q = r->dir;
+       free (r);
+       return q;
+    }
+    p = r; q = r->esq;
+    while (q->dir != NULL) {
+       p = q; q = q->dir;
+    }
+    // q é nó anterior a r na ordem e-r-d
+    // p é pai de q
+    if (p != r) {
+       p->dir = q->esq;
+       q->esq = r->esq;
+    }
+    q->dir = r->dir;
+    free (r);
+    return q;
+}
