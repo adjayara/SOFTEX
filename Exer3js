@@ -1,6 +1,6 @@
 const pessoa = {
-    nome: "beatriz",
-    idade: 10,
+    nome: "Adjayara",
+    idade: 30,
     nacionalidade: "Brasileira"
 }
 const array = [1, 2, 3]
