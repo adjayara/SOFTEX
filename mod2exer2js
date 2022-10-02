@@ -1,0 +1,6 @@
+var resultado = 0
+var valor1 = parseInt (prompt ("Digite um valor"));
+var valor2 = parseInt (prompt ("Digite um valor"));
+
+resultado = valor1 + valor2;
+console.log (resultado);
