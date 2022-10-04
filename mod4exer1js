@@ -1,0 +1,28 @@
+var banco = {
+  conta:1234567 ,
+  saldo: 100,
+  tipoDeConta: "poupança",
+
+ buscarSaldo(){
+  return this.saldo
+ },
+ deposito(valor){
+   this.saldo= this.saldo + valor;
+
+ },
+ saque(valorSaque){
+  this.saldo = this.saldo - valorSaque
+
+ },
+ numeroConta(){
+  return this.conta
+ }
+
+}
+
+console.log(banco.buscarSaldo());
+console.log(banco.deposito(200));
+console.log(banco.buscarSaldo());
+console.log(banco.saque(100));
+console.log(banco.numeroConta());
+console.log(banco.buscarSaldo());
