@@ -1,0 +1,16 @@
+let Nome = ()=>console.log('Meu nome é Beatriz');
+Nome();
+
+const MeuNome = function(){
+ return "Beatriz";
+}
+console.log (MeuNome())
+
+let v = function (x){
+  return x*10
+}
+console.log (v(20))
+
+
+const soma = (numero1, numero2)=> numero1+numero2;
+console.log(soma(500,400));
