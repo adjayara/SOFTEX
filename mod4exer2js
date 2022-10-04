@@ -1,0 +1,4 @@
+var fruta = 'Abacaxi'
+console.log('A fruta é', fruta)
+
+// Eu esccolhi o Replit por ser mais facil e que nao precisa de extensoes para a execuçao dos mesmos.
