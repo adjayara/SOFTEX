@@ -1,0 +1,11 @@
+{
+  "name": "desafio-3-mod-4",
+  "version": "1.0.0",
+  "description": "Desafio rotas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adjayara",
+  "license": "ISC"
+}
